@@ -7,16 +7,16 @@
     "content-hash": "707552f5326ab26bb17040c3259f02a5",
     "packages": [
         {
-            "name": "nemiah/php-sepa-xml",
+            "name": "refda/php-sepa-xml",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nemiah/phpSepaXml.git",
+                "url": "https://github.com/refda/phpSepaXml.git",
                 "reference": "55239189196c8b6ed16f3db9b52db1036600306e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nemiah/phpSepaXml/zipball/55239189196c8b6ed16f3db9b52db1036600306e",
+                "url": "https://api.github.com/repos/refda/phpSepaXml/zipball/55239189196c8b6ed16f3db9b52db1036600306e",
                 "reference": "55239189196c8b6ed16f3db9b52db1036600306e",
                 "shasum": ""
             },
@@ -29,8 +29,8 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "nemiah\\phpSepaXml\\": [
-                        "src/nemiah/phpSepaXml/"
+                    "refda\\phpSepaXml\\": [
+                        "src/refda/phpSepaXml/"
                     ]
                 }
             },
@@ -40,13 +40,13 @@
             ],
             "authors": [
                 {
-                    "name": "Nena Furtmeier",
-                    "email": "support@furtmeier.it",
+                    "name": "refda",
+                    "email": "-",
                     "role": "Developer"
                 }
             ],
             "description": "Simple classes for creating SEPA transfer and direct debit xml files. No dependencies",
-            "homepage": "https://github.com/nemiah/phpSepaXml",
+            "homepage": "https://github.com/refda/phpSepaXml",
             "keywords": [
                 "sepa",
                 "xml"
@@ -105,7 +105,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "nemiah/php-sepa-xml": 20
+        "refda/php-sepa-xml": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
